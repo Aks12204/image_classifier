@@ -22,7 +22,7 @@ def export_to_onnx(model_name='custom_cnn', num_classes=10, img_size=32, output_
         dummy_input,
         output_path,
         export_params=True,
-        opset_version=14,
+        opset_version=18,
         do_constant_folding=True,
         input_names=['input_image'],
         output_names=['output_logits'],

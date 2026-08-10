@@ -195,7 +195,7 @@ export default function ClassifierTab() {
               marginBottom: '20px',
               display: 'flex',
               alignItems: 'center',
-              justify-content: 'space-between'
+              justifyContent: 'space-between'
             }}>
               <div>
                 <span style={{ fontSize: '0.75rem', color: 'var(--text-muted)', textTransform: 'uppercase', letterSpacing: '0.05em', fontWeight: 700 }}>
